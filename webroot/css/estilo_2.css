@@ -1,0 +1,226 @@
+@import url('http://fonts.cdnfonts.com/css/04b30');
+@import url('http://www.fontsaddict.com/fontface/mario-kart-ds-regular.ttf');
+/* 
+    Author     : johanna Herrero Pozuelo
+	
+*/
+
+body{
+	font-family:OCR A Std, monospace;
+	/*background-image: url(../images/fondo44.png);*/
+	background-repeat:no-repeat;
+	background-size: 100%, 100%;
+	background-color:black;
+	
+}
+
+.github{
+	margin-top:-10%;
+	position:top-right;
+	
+}
+
+h2{ 
+	font-family: '04b', sans-serif;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-align:center;
+	padding:6px;
+	color:red;
+	background-color:blueviolet;
+	margin-top:0%;
+	margin-right:10%;
+	margin-left:10%;
+	border: 4px dotted purple;
+	border-radius: 35px 0px 35px 0px;
+	-moz-border-radius: 35px 0px 35px 0px;
+	-webkit-border-radius: 35px 0px 35px 0px;
+}
+
+/*caja debajo de titulo*/
+.caja1{
+	text-shadow: black 0.1em 0.1em 0.2em;
+	background-color:red;
+	margin-top:0%;
+	margin-right:10%;
+	margin-left:10%;
+	border: 4px inset yellow;
+	border-radius: 35px 0px 35px 0px;
+	-moz-border-radius: 35px 0px 35px 0px;
+	-webkit-border-radius: 35px 0px 35px 0px;
+}
+li:first-letter {
+	font-size: 1.6em;
+}
+.topmenu{
+	margin-top:10%;
+}
+.c1{
+	width:40%;
+	padding:8px;
+	
+}
+.c2{
+	
+	padding:8px;
+	
+}
+.c3{
+	
+	padding:8px;
+	
+}
+.c4{
+	
+	padding:8px;
+	
+}
+/*.contenedor{
+	margin-left:420px;
+	margin-top:180px;
+	background-color:lime;
+	width:500px;
+	height:
+	border: solid 2px grey;
+	border-radius: 15px 15px 15px 15px;
+	
+}*/
+
+.contenedor .topmenu li{
+	opacity: 0.8;
+	text-align:center;
+	width:40%;
+	margin-left:395px;
+	background-color:black;
+	border:2px,solid, pink;
+}
+
+.topmenu li{ 
+	text-decoration:none;
+	margin-left:20%;
+	color:white;
+	font-size: 22px;
+	text-decoration:none;
+	font-weight: 600;
+	position:center;
+	/*border-left: solid 2px grey;*/
+	padding:6px;
+	display: block;
+	
+}
+.topmenu a{
+	text-decoration:none;
+}
+.topmenu li:hover{
+	text-decoration:none;
+	background-color:lime;
+	width:819px;
+	border: solid 2px white;
+}
+.topmenu li:visitied{
+	text-decoration:none;
+}
+
+
+.topmain a{
+	text-decoration:none;
+	color:white;
+}
+.cajalogo{
+	text-decoration:none;
+	text-align:center;
+	margin-left:33%;
+	margin-top:3%;
+	padding:60px;
+	width:20%;
+	height:80%;
+	background-color:black;
+	opacity: 0.8;
+    filter: alpha(opacity=100);
+	border: 2px grey;
+	border-radius: 35px 35px 35px 35px;
+	
+}
+
+.topmain li{
+	text-decoration:none;
+	margin-left:33%;
+	margin-top:3%;
+	padding:30px;
+	width:20%;
+	height:80%;
+	background-color:black;
+	opacity: 0.8;
+    filter: alpha(opacity=100);
+	border: 2px grey;
+	border-radius: 35px 35px 35px 35px;
+}
+.fixed{
+	position:fixed;
+	padding:8px;
+	border:dashed 3px deeppink;
+	color:yellow;
+	font-weight: bold;
+	right:0px;
+	bottom:100px;
+	width:290px;
+	background-color:red;
+	opacity: 0.9;
+    filter: alpha(opacity=100);
+}
+img{
+	
+	margin-top:-30px;
+	position:relative;
+	margin-left:-0.2;
+}
+footer{
+	text-align:center;
+	font-weight: 800;
+	background-color:blueviolet;
+	border: dotted 2px;
+        position:relative;
+	border-radius: 35px 35px 35px 35px;
+        margin-top: 455px;
+        width: 98%;
+        height: 5%;
+        color: black;
+    	opacity: 0.8;
+        text-align: center;
+        padding: 2px;
+        vertical-align: middle;
+        position: relative;
+}
+table {
+    margin-top: 20px;
+  table-layout: fixed;
+  width: 100%;
+  height:100px;
+  color:lime;
+  border-collapse: collapse;
+  border: 3px solid purple;
+  text-align:left;
+  padding:2px;
+}
+td{
+	text-align:left;
+	border: 3px solid purple;width:90px;
+}
+
+th{
+	border: 3px solid purple;
+}
+.ver{
+	margin-top:2px;
+	margin-left:25px;
+}
+.play{
+	margin-top:2px;
+	margin-left:30px;
+}
+.git{
+	margin-left:-980px;
+	width:35px;
+	height:35px;
+}
+
+ 
