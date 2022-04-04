@@ -8,13 +8,13 @@
 
     //CONFIGURACION DE DESARROLLO 
   
-    //define('HOST', 'mysql:host=daw212.sauces.local;dbname=DB212DWESProyectoTema4');//Direccion IP del host y nombre de la base de datos
-    //define('USER', 'User212DWESProyectoTema4');//Nombre del usuario de la base de datos
-    //define('PASSWORD', 'P@ssw0rd');//Contraseña del usuario de la base de datos
-  
-    //CONFIGURACION CASA
-    define('HOST', 'mysql:host=192.168.1.112;dbname=DB212DWESProyectoTema4');//Direccion IP del host y nombre de la base de datos
+    define('HOST', 'mysql:host=daw212.sauces.local;dbname=DB212DWESProyectoTema4');//Direccion IP del host y nombre de la base de datos
     define('USER', 'User212DWESProyectoTema4');//Nombre del usuario de la base de datos
     define('PASSWORD', 'P@ssw0rd');//Contraseña del usuario de la base de datos
+  
+    //CONFIGURACION CASA
+    //define('HOST', 'mysql:host=192.168.1.112;dbname=DB212DWESProyectoTema4');//Direccion IP del host y nombre de la base de datos
+    //define('USER', 'User212DWESProyectoTema4');//Nombre del usuario de la base de datos
+    //define('PASSWORD', 'P@ssw0rd');//Contraseña del usuario de la base de datos
     
 ?>
