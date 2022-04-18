@@ -14,6 +14,10 @@
             header('Location: ../../212ProyectoTema4/index.php');
             exit;
         }
+        if(isset($_REQUEST['exportar'])){
+            header('Location: ../../212ProyectoTema4/codigoPhp/Ejercicio08PDOJson.php');
+            exit;
+        }
         if(isset($_REQUEST['crear'])){
             header('Location: crear.php');
             exit;
@@ -113,6 +117,7 @@
                 </fieldset>
             <br>
             <input type="submit" name="crear" value="Añadir">
+            <input type="submit" name="exportar" value="Exportar">
             </form>
            
 
@@ -154,7 +159,7 @@
                 position: relative;
             }
             
-            input:nth-of-type(2){
+            input:nth-of-type(2), input:nth-of-type(3){
                 font-size: 20px;
                 border-radius:5px;
             }
