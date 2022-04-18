@@ -16,11 +16,11 @@
                 margin: auto;
             }
             input{
-            font-size: 26px;
-            font-weight: bold;
-            border-radius:5px;
-            margin: 0 auto;
-            background-color: chartreuse;
+                font-size: 26px;
+                font-weight: bold;
+                border-radius:5px;
+                margin: 0 auto;
+                background-color: chartreuse;
             
             }
         </style>
@@ -28,7 +28,7 @@
     <body>
         <header>
             <h2>Aplicacion MtoDepartamentos</h2>
-			<div class="caja1"></div><br><br> 
+	    <div class="caja1"></div><br><br> 
 	</header> 
         <main>
             <div class="cajaBoton">

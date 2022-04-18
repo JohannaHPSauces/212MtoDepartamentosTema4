@@ -18,6 +18,10 @@
             header('Location: ../../212ProyectoTema4/codigoPhp/Ejercicio08PDOJson.php');
             exit;
         }
+        if(isset($_REQUEST['importar'])){
+            header('Location: ../../212ProyectoTema4/codigoPhp/Ejercicio07PDOJson.php');
+            exit;
+        }
         if(isset($_REQUEST['crear'])){
             header('Location: crear.php');
             exit;
@@ -76,7 +80,6 @@
                             echo "<tr>";
                             echo "<td><p>$codDepartamento </td>";           
                             echo "<td> $oDepartamento->T02_DescDepartamento </td>";
-                            echo "<td> $oDepartamento->T02_FechaBajaDepartamento </td>";
                             echo "<td> $oDepartamento->T02_VolumenNegocio </td></p>";
                         ?>
                         <td><a href="editar.php?codDepartamentoEnCurso=<?php echo urlencode($codDepartamento); ?>"><img src="../webroot/lapiz.png" class="ver" width="40" height="40"></td>
@@ -118,6 +121,7 @@
             <br>
             <input type="submit" name="crear" value="Añadir">
             <input type="submit" name="exportar" value="Exportar">
+            <input type="submit" name="importar" value="Importar">
             </form>
            
 
@@ -159,7 +163,7 @@
                 position: relative;
             }
             
-            input:nth-of-type(2), input:nth-of-type(3){
+            input:nth-of-type(2), input:nth-of-type(3), input:nth-of-type(4) {
                 font-size: 20px;
                 border-radius:5px;
             }

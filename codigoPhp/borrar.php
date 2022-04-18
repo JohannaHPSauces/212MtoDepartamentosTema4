@@ -77,10 +77,10 @@
                 height: 30px; width: 80px;
             }
             a img{
-                    display: flex;
-                    margin:auto;
-                    width:35px;
-                    height:35px;
+                display: flex;
+                margin:auto;
+                width:35px;
+                height:35px;
             }
             strong{
 		font-size: 20px;
